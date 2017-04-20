@@ -1,47 +1,47 @@
 {
   "quiz": [
     {
-      "topic": "politics",
+      "topic": "NEWSFLASH: Fox commentator O’Reilly dismissed",
       "articles": [
         {
           "org": "Bloomberg News",
-          "headline": "This is a headline",
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "headline": "Report: Fox News Parting with Bill O’Reilly",
+          "excerpt": "The Murdoch family has reportedly decided to pull The O’Reilly Factor off air amid allegations of sexual harassment against prime-time host Bill O’Reilly, and will soon be officially announcing his departure, according to sources close to Gabriel Sherman in New York magazine. According to Sherman, the decision was primarily driven by Rupert Murdoch’s sons, James and Lachlan, after The New York Times reported earlier this month that $13 million has been paid out from either Fox News or O’Reilly to five women to settle their sexual harassment claims against the host in lieu of litigation, despite O’Reilly’s denying the veracity of their claims. Fox News executives are reportedly meeting on Wednesday to discuss how to contain any damage from an O’Reilly dismissal. O’Reilly, who is currently on vacation, has hosted the network’s most popular show — The O’Reilly Factor — since the network’s inception in 1996 and remains the country’s highest-rated cable news host."
         },
 
         {
           "org": "Bloomberg News",
-          "headline": "This is a headline",
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "headline": "Bill O'Reilly out at Fox News after sexual harassment claims and ad boycott",
+          "excerpt": "O’Reilly, on vacation in Italy, met briefly with Pope Francis on Friday in St Peter’s Square. The meeting was part of the pope’s weekly general audience. The Vatican has said that no private meeting with O’Reilly was planned. Losing O’Reilly will be a major blow for Fox News. His pugnacious show dominates the primetime cable news landscape, and his show’s ratings have spiked in the wake of the scandal as loyal viewers have tuned in to give their support. O’Reilly, 67, has been an anchor at the network since he started in 1996. He earns an estimated $18m a year, and Fox extended his contract just after the New York Times broke its story on the initial allegations."
         },
 
         {
           "org": "Bloomberg News",
-          "headline": "This is a headline",
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "headline": "Bill O'Reilly Exits Fox After Sexual Harassment Scandal",
+          "excerpt": "The New York Times reported earlier this month that five women have received payments from Fox or O’Reilly, 67, for agreeing not to sue or talk about their allegations that O’Reilly verbally abused them, subjected them to unwanted advances or made lewd comments. Many advertisers pulled their commercials from the show because of the allegations, which came just months after Fox News’ founder Ailes left the network in a separate sexual harassment scandal. Shares of Fox fell 0.9 percent to $30.39 at the close in New York. They are up 12 percent since last July, when Ailes departed."
         }
       ]
     },
 
     {
-      "topic": "energy",
+      "topic": "NEWSFLASH: U.S. Military Drops Massive Bomb on Islamic State in Afghanistan",
       "articles": [
         {
           "org": "Bloomberg News",
-          "headline": "This is a headline",
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "headline": "36 Isis militants killed in US 'mother of all bombs' attack, Afghan ministry says",
+          "excerpt": "Designed for destroying underground targets but not itself a deep-earth penetrator weapon, the GBU-43/B has the explosive yield of more than 11 tons of TNT. The massive bomb is dropped from air force planes and detonates before reaching the ground, resulting in an enormous blast radius. Only the Massive Ordnance Penetrator GBU-57, which has never been used in war, is a larger conventional weapon."
         },
 
         {
           "org": "Bloomberg News",
-          "headline": "This is a headline",
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "headline": "U.S. Military Drops Massive Bomb on Islamic State in Afghanistan",
+          "excerpt": "The U.S. military on Thursday dropped a massive 21,600-pound bomb in Afghanistan targeting Islamic State in Iraq and Syria fighters in a series of cave complexes. At 7:32 p.m., a U.S. MC-130 aircraft dropped the bomb – the U.S.’s largest non-nuclear bomb ever used in combat – in Achin district in the eastern province of Nangarhar, Afghanistan."
         },
 
         {
           "org": "Bloomberg News",
-          "headline": "This is a headline",
-          "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "headline": "U.S. Drops the Military's Biggest Non-Nuclear Bomb in Afghanistan",
+          "excerpt": "The action came a week after Trump authorized missile strikes against Syria for a chemical weapons attack on civilians. It also coincides with rising concern that North Korea may conduct another nuclear test or missile launch. Trump has vowed that the U.S. will act to stop North Korea’s nuclear program unless China manages to constrain its neighbor."
         }
       ]
     }

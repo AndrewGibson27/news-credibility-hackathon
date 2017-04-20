@@ -13,7 +13,7 @@ export default class Results extends Component {
     return (
       <div className='results'>
         <div style={{width: '100%'}}>
-          <h2 className='results__header'>Politics</h2>
+          <h2 className='results__header'>Fox commentator dismissed</h2>
           <BarChart
             width={800}
             height={500}
@@ -28,7 +28,7 @@ export default class Results extends Component {
         </div>
 
         <div style={{width: '100%'}}>
-          <h2 className='results__header'>Energy</h2>
+          <h2 className='results__header'>U.S. Military Drops Massive Bomb on Islamic State in Afghanistan</h2>
           <BarChart
             width={800}
             height={500}
