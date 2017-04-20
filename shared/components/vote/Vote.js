@@ -14,7 +14,7 @@ export default class Vote extends Component {
 
     setTimeout(function() {
       self.props.updateCurrTopic();
-    }, 5000);
+    }, 7000);
   }
 
   render() {

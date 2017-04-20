@@ -23,7 +23,10 @@ export default class Topic extends Component {
 
     return (
       <div className='topic'>
-        <h2 className='topic__header'>{this.props.topicName}</h2>
+        <h2 className='topic__header'>
+          <span className='topic__newsflash'>Newsflash</span>
+          {this.props.topicName}
+        </h2>
         {articlesMarkup}
       </div>
     );

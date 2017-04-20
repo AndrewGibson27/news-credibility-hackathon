@@ -38,8 +38,11 @@ export default class Preferences extends Component {
     return (
       <div>
         <header className='header'>
-          <div className='header__inner'>
+          <div className='header__block--hed'>
             <h1 className='header__headline'>Welcome to Incredibility</h1>
+          </div>
+
+          <div className='header__block--sub'>
             <h2 className='header__sub'>Before we start, set the slider to the position that best describes your political identity.</h2>
           </div>
         </header>

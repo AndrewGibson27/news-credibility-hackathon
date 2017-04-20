@@ -12,6 +12,14 @@ export default class Results extends Component {
 
     return (
       <div className='results'>
+        <p className='results__summary'>You thought [publication]’s article was the most credible. X% agreed with you. Y% thought [publication]’s article was most credible. X% thought [publication]’s article was most credible.</p>
+
+        <ul className='results__keyPoints'>
+          <li>The majority of liberal-leaning people (X%) considered [publication]’s article to be most credible.</li>
+          <li>The majority of conservative-leaning people (X%) considered [publication]’s article to be most credible.</li>
+          <li>The majority of centre-leaning people (X%) considered [publication]’s article to be most credible.</li>
+        </ul>
+
         <div style={{width: '100%'}}>
           <h2 className='results__header'>Fox commentator dismissed</h2>
           <BarChart
@@ -19,10 +27,9 @@ export default class Results extends Component {
             height={500}
             margin={margin}
             data={[
-              { text: 'Article 1', value: 40 },
-              { text: 'Article 2', value: 100 },
-              { text: 'Article 3', value: 34 },
-              { text: 'Article 4', value: 68 }
+              { text: 'Breitbart', value: 40 },
+              { text: 'Guardian', value: 100 },
+              { text: 'Bloomberg', value: 34 }
             ]}
           />
         </div>
@@ -34,10 +41,9 @@ export default class Results extends Component {
             height={500}
             margin={margin}
             data={[
-              { text: 'Article 1', value: 45 },
-              { text: 'Article 2', value: 300 },
-              { text: 'Article 3', value: 199 },
-              { text: 'Article 4', value: 27 }
+              { text: 'Breitbart', value: 45 },
+              { text: 'Guardian', value: 300 },
+              { text: 'Bloomberg', value: 199 }
             ]}
           />
         </div>

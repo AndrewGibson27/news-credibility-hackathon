@@ -14,6 +14,7 @@ export default class Article extends Component {
         <h3 className='article__headline'>{this.props.num+1}. {this.props.headline}</h3>
         {orgMarkup}
         <p className='article__excerpt'>{this.props.excerpt}</p>
+        <p className='article__more'>Read more</p>
       </div>
     );
   }
