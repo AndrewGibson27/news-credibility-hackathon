@@ -1,26 +1,150 @@
-.container {
-  font-family: Helvetica, Arial, sans-serif;
-  margin: 0 auto;
-  max-width: 960px;
+$black: #222;
+$trib-yellow: #ffcc20;
+$font: 'Roboto', sans-serif;
+
+* {
+  font-family: $font;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.heading {
-  text-align: center;
+.header {
+  background-color: $trib-yellow;
+  min-height: 200px;
+  padding: 50px 0;
+
+  &__inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: $black;
+  }
+
+  &__headline {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  &__sub {
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 400;
+  }
 }
 
-.imageContainer {
-  margin: 20px 0 0 0;
+.preferences {
+  max-width: 1000px;
+  margin: 50px auto 0 auto;
+  padding: 0 15px;
+
+  &__header {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  &__link {
+    display: block;
+    margin: 70px auto 0 auto;
+    background-color: $trib-yellow;
+    width: 300px;
+    text-align: center;
+    color: $black;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 2px;
+    border: 2px solid $trib-yellow;
+
+    &:hover {
+      background-color: #FFF;
+    }
+  }
 }
 
-.imageFile {
-  display: block;
-  margin: 0 auto;
+.preference {
+  margin-top: 80px;
+
+  &__header {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  &__button {
+    background-color: $trib-yellow;
+  }
+}
+
+.slider {
   max-width: 500px;
-  width: 100%;
+  margin: 0 auto;
 }
 
-.imageCaption {
-  font-size: 50px;
-  font-style: italic;
-  margin-top: 10px;
+.rangeslider__label {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.topic {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  &__header {
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 3px solid $trib-yellow;
+  }
+}
+
+.article {
+  &__headline {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+
+  &__excerpt {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  &__org {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: $black;
+    display: inline-block;
+    color: #FFF;
+    text-transform: uppercase;
+  }
+}
+
+.vote {
+  max-width: 1000px;
+  margin: 100px auto 0 auto;
+  padding: 0 15px;
+
+  &__header {
+    font-size: 32px;
+    padding-top: 15px;
+    border-top: 3px solid $trib-yellow;
+  }
+}
+
+.results {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  &__header {
+    font-size: 32px;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  rect {
+    fill: $trib-yellow;
+  }
 }

@@ -41,10 +41,26 @@ export default class APIHandler {
           }
         });
       });
+
+    this.router.route('/quiz')
+      .get(function(req, res){
+        self.retrieveQuiz((err, data) => {
+          if (!err) {
+            res.json(JSON.parse(data));
+          } else {
+            res.status(500).send();
+          }
+        });
+      });
   }
 
   retrievePreferences(callback) {
     const filePath = path.join(__dirname, '..', '..', 'shared', 'json', 'preferences.json');
+    fs.readFile(filePath, 'utf-8', callback);
+  }
+
+  retrieveQuiz(callback) {
+    const filePath = path.join(__dirname, '..', '..', 'shared', 'json', 'quiz.json');
     fs.readFile(filePath, 'utf-8', callback);
   }
 }

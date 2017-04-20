@@ -14,15 +14,15 @@ export default class Preference extends Component {
   render() {
     const answersMarkup = this.props.answers.map(answer => {
       return (
-        <RadioButton value={answer.value}>
+        <RadioButton value={answer.value} pointColor={'#ffc200'}>
           {answer.label}
         </RadioButton>
       );
     });
 
     return (
-      <div>
-        <h2>{this.props.question}</h2>
+      <div className='preference'>
+        <h2 className='preference__header'>{this.props.question}</h2>
 
         <RadioGroup onChange={this.onRadioChange.bind(this)} horizontal>
           {answersMarkup}

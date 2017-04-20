@@ -1,17 +1,16 @@
 {
   "preferences": [
     {
-      "question": "What is your political preference?",
+      "question": "How would you describe where you live?",
       "answers": [
-        { "value": "conservative", "label": "Conservative" },
-        { "value": "liberal", "label": "Liberal" },
-        { "value": "moderate", "label": "Moderate" },
-        { "value": "other", "label": "Other" }
+        { "value": "rural", "label": "Rural" },
+        { "value": "suburban", "label": "Suburban" },
+        { "value": "conservative", "label": "Conservative" }
       ]
     },
 
     {
-      "question": "What generation are you?",
+      "question": "What's your generation?",
       "answers": [
         { "value": "millenial", "label": "Millenial" },
         { "value": "gen-x", "label": "Generation X" },

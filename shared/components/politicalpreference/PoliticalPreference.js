@@ -22,8 +22,10 @@ export default class PoliticalPreference extends Component {
   render() {
     return (
       <Slider
+        className='slider'
         value={this.state.volume}
         orientation='horizontal'
+        labels={{ 0: 'Conservative', 100: 'Liberal'}}
         onChange={this.onSliderChange.bind(this)}
       />
     );
