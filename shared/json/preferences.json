@@ -1,0 +1,22 @@
+{
+  "preferences": [
+    {
+      "question": "What is your political preference?",
+      "answers": [
+        { "value": "conservative", "label": "Conservative" },
+        { "value": "liberal", "label": "Liberal" },
+        { "value": "moderate", "label": "Moderate" },
+        { "value": "other", "label": "Other" }
+      ]
+    },
+
+    {
+      "question": "What generation are you?",
+      "answers": [
+        { "value": "millenial", "label": "Millenial" },
+        { "value": "gen-x", "label": "Generation X" },
+        { "value": "baby-boomer", "label": "Baby Boomer" }
+      ]
+    }
+  ]
+}

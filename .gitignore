@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.*
+!.gitignore
+!.gitkeep
+!.babelrc
+server/dist/
+public/*build*
