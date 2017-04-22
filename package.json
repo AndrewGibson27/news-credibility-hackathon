@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-express-isomorphic-boilerplate",
-  "version": "2.0.0",
-  "description": "Render on the server and client with Webpack, React, React Router and Express",
+  "name": "news-credibility-hackathon",
+  "version": "1.0.0",
+  "description": "A prototype built during the 2017 ISOJ hackathon in Austin",
   "author": "Andrew Gibson <atgibson27@gmail.com>",
   "main": [
     "src/entry/index.js",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndrewGibson27/react-webpack-express-isomorphic-boilerplate"
+    "url": "https://github.com/AndrewGibson27/news-credibility-hackathon"
   },
   "bugs": {
-    "url": "https://github.com/AndrewGibson27/react-webpack-express-isomorphic-boilerplate/issues"
+    "url": "https://github.com/AndrewGibson27/news-credibility-hackathon/issues"
   },
   "scripts": {
     "routes": "webpack --config ./webpack/config.server.js",
