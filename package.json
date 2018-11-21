@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "A prototype built during the 2017 ISOJ hackathon in Austin",
   "author": "Andrew Gibson <atgibson27@gmail.com>",
-  "main": [
-    "src/entry/index.js",
-    "src/shared/routes.js",
-    "src/server/index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/AndrewGibson27/news-credibility-hackathon"
